@@ -1,4 +1,4 @@
-# Bootiful Swaggger
+# Bootiful Swagger
 - Using Swagger Demo Project for Spring Boot
 
 ## Run Application
