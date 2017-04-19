@@ -27,7 +27,7 @@ public class UserRestController {
             tags = {"User API"})
     public ResponseEntity<?> saveUser(@RequestBody UserEntity.save userSaveDto) {
         UserEntity user = userService.save(modelMapper.map(userSaveDto, UserEntity.class));
-        return new ResponseEntity<>(user, HttpStatus.OK);
+        return new ResponseEntity<>(user, HttpStatus.CREATED);
     }
 
     @GetMapping("/users/{userId}")
