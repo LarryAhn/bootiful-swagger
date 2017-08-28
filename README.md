@@ -4,7 +4,7 @@
 ## Run Application
 ```bash
 // git clone
-$ git clone https://github.com/LawrenceAhn/bootiful-swagger.git && cd bootiful-swagger
+$ git clone https://github.com/LarryAhn/bootiful-swagger.git && cd bootiful-swagger
 $ ./mvnw spring-boot:run
 
 # Running application
